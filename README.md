@@ -1,12 +1,28 @@
-# React + Vite
+# 🚀 Bitro – Cryptocurrency React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bitro** is a modern, responsive cryptocurrency dashboard built using **ReactJS** and powered by the [CoinGecko API](https://www.coingecko.com/). It provides up-to-date market data including real-time prices, coin charts, and market ranks for various cryptocurrencies.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+[🔗 View Live Website] === *coming soon*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🔄 Real-time cryptocurrency prices
+- 📊 Interactive historical price charts
+- 🔍 Individual coin detail pages
+- 🌐 Supports multiple currencies
+- 📱 Fully responsive on all devices
+- 💡 Clean and modern UI design
+
+
+## 🧪 Tech Stack
+
+- **ReactJS** – Frontend framework
+- **CoinGecko API** – Free cryptocurrency market data
+- **CSS / Flexbox** – Responsive layout
+- **react-google-charts** – For visualizing historical data
