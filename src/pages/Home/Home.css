@@ -1,0 +1,152 @@
+.home {
+    padding: 0px 10px;
+    padding-bottom: 100px;
+}
+
+.hero {
+    max-width: 600px;
+    margin:80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: max(4vw 36px);
+    color: #33595e;
+    line-height: 1.5;
+}
+
+.hero form {
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero input {
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.hero button {
+    border: none;
+    background: #33595ec0;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.coin {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    animation: bounce 7s 4s infinite , drop 9s  infinite;
+}
+
+@keyframes drop {
+    0% {
+        transform:translateY(-100vh);
+    }
+    100% {
+        transform:translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform:translateY(0.0);
+    }
+    50% {
+        transform:translateY(20px);
+    }
+    100% {
+        transform:translateY(0);
+    }
+}
+
+.crypto-table {
+    max-width: 800px;
+    margin: auto;
+    background: #273B41;
+    border-radius: 15px;
+    color: white;
+}
+
+.table-layout {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.market-cap {
+    text-align: right;
+}
+
+.table-layout:last-child {
+    border: none;
+}
+
+.table-layout div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-layout div img {
+    width: 35px;
+}
+
+.table-layout .green {
+    color: #00D515;
+    text-align: center;
+}
+.table-layout .red {
+    color: #ff4646;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .table-layout {
+        grid-template-columns: 0.5fr 3fr 1fr 1fr;
+    }
+
+    .market-cap{
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .table-layout div img {
+        width: 25px;
+    }
+
+    .table-layout {
+        font-size: 13px;
+    }
+
+    .hero form input {
+        width: 100px;
+    }
+}

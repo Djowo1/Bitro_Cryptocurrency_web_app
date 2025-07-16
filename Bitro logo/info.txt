@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Coiny-Regular
+font link: https://fonts.google.com/specimen/Coiny
+font author: Marcelo Magalhães
+font author site: http://www.marcelomagalhaes.net/
+Slogan Font: Snickles.ttf
+
+icon designer: Icons By Alfredo
+icon designer link: /creator/AlfredoCreates/
+        
+{"bg":"transparent","icon-gradient-0":"#20484F","icon-gradient-1":"#4E9BAB","font":"#000000","slogan":"#141414"}
+      
