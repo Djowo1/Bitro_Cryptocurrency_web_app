@@ -21,7 +21,7 @@ const Home = () => {
   const [displayCoin, setDisplayCoin] = useState([]);
   const [searchInput, setSearchInput] = useState('');
 
-  // Animate floating coins
+  
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCoins((prevCoins) =>
@@ -36,7 +36,7 @@ const Home = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  // Set displayCoin initially
+  
   useEffect(() => {
     setDisplayCoin(allCoin);
   }, [allCoin]);
